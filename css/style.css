@@ -200,7 +200,7 @@ main {
 }
 
 /* footer styles */
-.fa-brands{
+footer .fa-brands{
     color: #FD6E0A;
     margin-right: 5px;
 }
