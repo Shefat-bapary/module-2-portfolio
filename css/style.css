@@ -202,12 +202,24 @@ main {
 /* footer styles */
 .fa-brands{
     color: #FD6E0A;
+    margin-right: 5px;
 }
-
-footer{
+.contact{
     background: #FFF8F3;
     display: flex;
+    gap: 100px;
+    padding: 130px; 
 }
-footer input, textarea{
-    display: block;
+.contact .section-title{
+    text-align: left;
+}
+.contact .section-description{
+    margin: 11px 0;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 23px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px ;
+    border-radius: 5px;
 }
