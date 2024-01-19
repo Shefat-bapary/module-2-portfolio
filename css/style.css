@@ -27,6 +27,11 @@
     font-weight: 700;
 }
 
+
+section {
+    margin-top: 130px;
+}
+
 /* --------------NAV style----------- */
 nav {
     display: flex;
@@ -53,6 +58,9 @@ nav li a {
     text-decoration: none;
     color: black;
 }
+
+
+
 
 /* banner style */
 
@@ -90,25 +98,30 @@ nav li a {
     border: 1px solid #FD6E0A;
 }
 
+
+
 /* Main section style  */
 main {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
+
+
 /* About me style ////////// */
 .about {
-    margin-top: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     padding: 110px 130px;
     text-align: center;
 }
 
+/* primary section title */
 .section-title {
     margin-bottom: 25px;
     font-size: 30px;
     font-weight: 700;
+    text-align: center;
 }
 
 .section-description {
@@ -116,17 +129,85 @@ main {
     font-size: 16px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .about-info-title{
+
+.about .about-info-title {
     font-size: 17px;
     color: var(--Dark-03, #757575);
     margin-top: 26px;
 }
 
-.info-description{
+.info-description {
     font-weight: 700;
     font-size: 18px;
+}
+
+
+/* whais i do sytle  */
+
+.what-i-do-title-and-dec {
+    text-align: center;
+    padding: 0 120px;
+}
+
+.skill-container {
+    display: flex;
+    margin-top: 60px;
+    gap: 18px;
+}
+
+.skill {
+    padding: 26px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    margin-top: 26px;
+    margin-bottom: 21px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.skill-des {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+}
+
+
+/* Resume style   */
+
+.resume-content {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-title {
+
+}
+
+.resume-sub-title {
+    margin-top: 23px;
+    font-size: 20px;
+}
+
+.resume-des {
+    margin: 20px 0;
+}
+
+/* footer styles */
+.fa-brands{
+    color: #FD6E0A;
+}
+
+footer{
+    background: #FFF8F3;
+    display: flex;
+}
+footer input, textarea{
+    display: block;
 }
