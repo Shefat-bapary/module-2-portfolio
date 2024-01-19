@@ -3,11 +3,12 @@
     font-family: "Open Sans";
 }
 
-.header{
+.header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    background-size: auto, contain;
 }
 
 /* .primary product */
@@ -21,7 +22,7 @@
     color: #fff;
     border: 0;
     height: 50px;
-    padding: 0 15px ;
+    padding: 0 15px;
     font-size: 15px;
     font-weight: 700;
 }
@@ -47,30 +48,44 @@ nav li {
     list-style: none;
     margin-left: 40px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: black;
 }
- 
+
 /* banner style */
 
-.banner{
+.banner {
     margin: 0 60px 0 160px;
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
 
-.banner-title{
+.banner-title {
     font-weight: 700;
     font-size: 67px;
 }
-.banner-sub-title{
+
+.banner-sub-title {
     font-weight: 600;
     font-size: 40px;
 }
 
-.banner-discripsion{
+.banner-discripsion {
     margin: 20px 0;
     color: var(--Dark-03, #757575);
     font-size: 17px;
+}
+
+.contact-btn {
+    color: #FD6E0A;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    padding: 0 20px;
+    margin-left: 22px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
 }
