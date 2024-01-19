@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    font-family: "Open Sans";
+}
+
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* .primary product */
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #fff;
+    border: 0;
+    height: 50px;
+    padding: 0 15px ;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* --------------NAV style----------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 160px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+ 
+/* banner style */
+
+.banner{
+    margin: 0 60px 0 160px;
+    display: flex;
+    align-items: center;  
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 67px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.banner-discripsion{
+    margin: 20px 0;
+    color: var(--Dark-03, #757575);
+    font-size: 17px;
+}
