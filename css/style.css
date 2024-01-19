@@ -207,6 +207,7 @@ main {
 .garap-details{
     display: flex;
     justify-content: space-between;
+    margin: 7px 0;
 }
 
 .box-1{
@@ -242,6 +243,12 @@ main {
 .bootstrap-g{
     display: grid;
     grid-template-columns: 88% 12%;
+}
+
+.center-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
 
 /* footer styles */
